@@ -1,0 +1,108 @@
+
+
+
+header{
+    background-color: salmon;
+    padding: 10px;
+    background-color: snow;
+}
+
+.ulfooter  li{
+  list-style-type: none;
+  padding: 2px;
+  
+}
+
+.divsanpham{
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    margin-top: 20px;
+}
+
+.divsanpham h3{
+    
+    border-bottom: 1px solid lightgray ;
+    padding: 10px;
+}
+
+#logo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.congtru{
+    float: right;
+}
+
+#boloc{
+    
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#nutloc{
+    float: right;
+}
+
+
+.tieudesanpham .tren{
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.tieudesanpham .tren p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tieudesanpham .tren button{
+  float: right;
+}
+
+.tieudesanpham .tren button ul {
+  width: 200px;
+  list-style-type: none;
+  display: none;
+  position: relative;
+  padding: 0px;
+  background-color: white;
+  z-index: 10;
+}
+
+.tieudesanpham .tren button:hover ul{
+    
+    position: absolute;
+    display: block;
+    top: 50px;
+    
+}
+
+.tieudesanpham .tren button:hover ul li{
+    padding: 10px;
+}
+
+.tieudesanpham .duoi{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+
+.tieudesanpham .duoi button{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tieudesanpham .duoi .btnvang{
+    background-color: #F2E70F;
+
+}
+
+.tieudesanpham .duoi .btndo{
+    background-color: #F85928;
+}
+

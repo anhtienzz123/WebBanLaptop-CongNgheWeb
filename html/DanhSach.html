@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Danh Sách Sản Phẩm</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../fontawesome-free-5.13.0-web/css/all.css">
+
+
+  <!-- Custom styles for this template -->
+  <link href="../css/shop-homepage.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+
+
+
+</head>
+
+<body class="bg-light">
+
+  <header class="fixed-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-2">
+          <img id="logo" src="../image/logo/logo.jpg" alt="">
+        </div>
+
+        <div class="col-lg-5">
+          <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Tên sản phẩm">
+              <button class="btn btn-info">Tìm kiếm</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-lg-2">
+          <button class="btn btn-outline-warning"> <i class="fas fa-phone-volume" style="margin-right: 3px;"> </i>HỖ TRỢ
+            ONLINE</button>
+        </div>
+
+        <div class="col-lg-3">
+          <button class="btn btn-outline-warning"> <i class="fas fa-shopping-cart"></i> Giỏ hàng </button>
+
+          <button class="btn btn-warning"><i class="fas fa-users"></i> Đăng nhập</button>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="my-4 col-lg-3" style="height: 800px;">
+
+        <div id="boloc" class=" bg-white">
+
+          <form>
+            <button id="nutloc" class="btn btn-info"><i class="fas fa-filter"></i> Lọc</button>
+          </form>
+          <h3>Bộ Lọc</h3>
+          <hr>
+
+          <!-- Bộ lọc-->
+          <div>
+
+            <div id="accordion">
+
+
+              <div class="card">
+
+                <div class="card-header">
+
+                  <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    Hãng sản xuất <i class="fas fa-plus congtru"></i>
+                  </a>
+
+                </div>
+
+
+
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                  <div class="card-body">
+                    <form>
+                      <input type="text" class="form-control" placeholder="Tìm thương hiệu">
+                      <br>
+                      <input type="checkbox"> <label for="">Dell</label>
+                      <br>
+                      <input type="checkbox"> <label for="">Asus</label>
+                      <br>
+                      <input type="checkbox"> <label for="">Apple</label>
+                      <br>
+                      <input type="checkbox"> <label for="">Lenovo</label>
+                      <br>
+                      <input type="checkbox"> <label for="">HP</label>
+                      <br>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    Mức giá <i class="fas fa-plus congtru"></i>
+                  </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <form>
+                      <input type="checkbox" id="tatca"> <label for="tatca"> Tất cả</label>
+                      <br>
+                      <input type="checkbox" id="gia1"> <label for="gia1"> Dưới 5 triệu</label>
+                      <br>
+                      <input type="checkbox" id="gia2"> <label for="gia2">Từ 5 - 10 triệu</label>
+                      <br>
+                      <input type="checkbox" id="gia3"> <label for="gia3">Từ 10 - 15 triêu</label>
+                      <br>
+                      <input type="checkbox" id="gia4"> <label for="gia4">Từ 15 - 20 triệu</label>
+                      <br>
+                      <input type="checkbox" id="gia5"> <label for="gia5">Trên 20 triệu</label>
+                      <br>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    Màn hình <i class="fas fa-plus congtru"></i>
+                  </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <form>
+                      <input type="checkbox" id="tatca1"> <label for="tatca1"> Tất cả</label>
+                      <br>
+                      <input type="checkbox" id="manhinh1"> <label for="manhinh1"> Khoảng 11 inchs</label>
+                      <br>
+                      <input type="checkbox" id="manhinh2"> <label for="manhinh2"> Khoảng 12 inchs</label>
+                      <br>
+                      <input type="checkbox" id="manhinh3"> <label for="manhinh3"> Khoảng 13 inchs</label>
+                      <br>
+                      <input type="checkbox" id="manhinh4"> <label for="manhinh4"> Khoảng 14 inchs</label>
+                      <br>
+                      <input type="checkbox" id="manhinh5"> <label for="manhinh5"> Khoảng 15 inchs</label>
+                      <br>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                    Ram <i class="fas fa-plus congtru"></i>
+                  </a>
+                </div>
+                <div id="collapseFour" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <form>
+                      <input type="checkbox" id="tatca2"> <label for="tatca2"> Tất cả</label>
+                      <br>
+                      <input type="checkbox" id="ram1"> <label for="ram1"> 2 GB</label>
+                      <br>
+                      <input type="checkbox" id="ram2"> <label for="ram2"> 4 GB</label>
+                      <br>
+                      <input type="checkbox" id="ram3"> <label for="ram3"> 8 GB</label>
+                      <br>
+                      <input type="checkbox" id="ram4"> <label for="ram4"> 16 GB</label>
+                      <br>
+                      <input type="checkbox" id="ram5"> <label for="ram5"> 32</label>
+                      <br>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+          <!-- Bộ lọc-->
+
+
+        </div>
+
+
+
+
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9 bg-white my-4">
+
+        <div class="tieudesanpham">
+
+          <div class="tren">
+            <button class="btn btn-outline-success">Sắp xếp theo: Giá thấp đến cao
+              <ul>
+                <li><a href="#">Giá thấp đến cao</a></li>
+                <li><a href="#">Giá cao đến thâp</a></li>
+              </ul>
+
+            </button>
+            <p>LAPTOP DELL (29+ sản phẩm)</p>
+
+          </div>
+
+          <div class="duoi">
+            <span>LỌC THEO: </span>
+            <button class="btnvang">DELL <i class="fas fa-times"></i></button>
+            <button class="btnvang">Dưới 5 triệu <i class="fas fa-times"></i></button>
+            <button class="btndo">Khoảng 15 inchs <i class="fas fa-times"></i></button>
+            <button class="btndo"> 8 GB <i class="fas fa-times"></i></button>
+          </div>
+
+        </div>
+
+        <div class="row my-4" style="background-color: white;">
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h4>
+                <h5>21.290.000 đ</h5>
+
+                </p>
+              </div>
+
+              <div class="card-footer">
+                Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h4>
+                <h5>21.290.000 đ</h5>
+
+                </p>
+              </div>
+
+              <div class="card-footer">
+                Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h4>
+                <h5>21.290.000 đ</h5>
+
+                </p>
+              </div>
+
+              <div class="card-footer">
+                Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h4>
+                <h5>21.290.000 đ</h5>
+
+                </p>
+              </div>
+
+              <div class="card-footer">
+                Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h4>
+                <h5>21.290.000 đ</h5>
+
+                </p>
+              </div>
+
+              <div class="card-footer">
+                Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h4>
+                <h5>21.290.000 đ</h5>
+
+                </p>
+              </div>
+
+              <div class="card-footer">
+                Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h4>
+                <h5>21.290.000 đ</h5>
+
+                </p>
+              </div>
+
+              <div class="card-footer">
+                Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h4>
+                <h5>21.290.000 đ</h5>
+
+                </p>
+              </div>
+
+              <div class="card-footer">
+                Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h4>
+                <h5>21.290.000 đ</h5>
+
+                </p>
+              </div>
+
+              <div class="card-footer">
+                Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <!-- /.row -->
+
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+        </ul>
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <!-- Footer -->
+  <footer class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 ulfooter">
+          <h5>Laptop chính hãng Phúc Tiên</h5>
+          <hr>
+
+          <p>Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Hồ Chí Minh</p>
+          <p>Hotline bán hàng: 0935050235 (Tiên Huỳnh)</p>
+          <p>Hotline kỹ thuật: 0954523021 (Hoàng Phúc)</p>
+          <p>Kết nối: <a><i class="fab fa-facebook-f"></i> Facebook</a>
+
+          </p>
+        </div>
+
+        <div class="col-3 ulfooter">
+          <h5>CHÍNH SÁCH CHUNG</h5>
+          <hr>
+
+          <p><a href="#">Chính sách đổi trả hàng</a></p>
+          <p><a href="#">Chính sách vận chuyển</a></p>
+          <p><a href="#">Chính sách bán hàng online</a></p>
+          <p><a href="#">Chính sách bảo hành</a></p>
+          <p><a href="#">Chính sách trả góp</a></p>\
+
+
+
+
+        </div>
+
+        <div class="col-3 ulfooter">
+          <h5>TRỢ GIÚP</h5>
+
+          <hr>
+
+
+          <p><a href="#">Giới thiệu</a></p>
+          <p><a href="#">Thông tin liên lạc</a></p>
+          <p><a href="#">Hướng dẫn mua hàng online</a></p>
+          <p><a href="#">Hướng dẫn trả góp</a></p>
+          <p><a href="#">Chính sách bảo hành</a></p>
+          <p><a href="#">Chính sách trả góp</a></p>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
