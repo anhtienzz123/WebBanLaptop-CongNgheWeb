@@ -6,16 +6,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Trang chu</title>
+  <title>Trang chủ</title>
 
-  <!-- Bootstrap core CSS -->
+  <!-- Bootstrap -->
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Icon -->
   <link rel="stylesheet" href="../fontawesome-free-5.13.0-web/css/all.css">
 
 
-  <!-- Custom styles for this template -->
-  <link href="../css/shop-homepage.css" rel="stylesheet">
+  <!-- File css-->
   <link rel="stylesheet" href="../css/main.css">
 
 
@@ -25,10 +25,10 @@
 <body class="bg-light">
 
   <header class="fixed-top">
-    <div class="container" >
+    <div class="container">
       <div class="row">
 
-        <div class="col-lg-2" >
+        <div class="col-lg-2">
           <img id="logo" src="../image/logo/logo.jpg" alt="logo">
         </div>
 
@@ -36,20 +36,37 @@
           <form>
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Tên sản phẩm">
-              <button class="btn btn-info"><i class="fas fa-search"></i></button> 
+              <button class="btn btn-info"><i class="fas fa-search"></i></button>
             </div>
           </form>
         </div>
 
-        <div class="col-lg-2">
-          <button class="btn btn-outline-warning"> <i class="fas fa-phone-volume" ></i>HỖ TRỢ
-            ONLINE</button>
+        <div class="col-lg-3 dinhdanga">
+          <div class="row">
+            <button class="btn btn-outline-warning"> <i class="fas fa-phone-volume"></i>HỖ TRỢ
+              ONLINE</button>
+
+            <a href="GioHang.html"> <button class="btn btn-outline-warning"> <i class="fas fa-shopping-cart"></i> Giỏ
+                hàng</button></a>
+
+          </div>
         </div>
 
-        <div class="col-lg-3">
-          <button class="btn btn-outline-warning"> <i class="fas fa-shopping-cart"></i> Giỏ hàng </button>
+        <div class="col-lg-2 dinhdanga odangnhap">
 
-          <button class="btn btn-warning"><i class="fas fa-users"></i> Đăng nhập</button>
+          <a id="nutdangnhap" href="DangNhap.html"> <button class="btn btn-warning"><i class="fas fa-users"></i> Đăng
+              nhập</button></a>
+
+          <div id="bangdangnhap">
+            <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-users"></i> Đăng nhập</button></a>
+            <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-registered"></i> Tạo tài
+                khoản</button></a>
+            <a href="DangNhap.html"><button class="btn btn-primary"><img src="../image/logo/fb.png"> Đăng nhập Facebook
+              </button></a>
+            <a href="DangNhap.html"><button class="btn btn-danger"><img src="../image/logo/google.jpg"> Đăng nhập
+                Google </button></a>
+          </div>
+
 
         </div>
 
@@ -60,8 +77,8 @@
 
   </header>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -92,24 +109,17 @@
   <!-- Page Content -->
   <div>
     <div class="container bg-white">
-	
+
       <div class="row">
 
-        <!-- <ul id="menu2">
-                 <li><a href="#">Laptop Dell 88745</a></li>
-                 <li><a href="#">Laptop Dell 88745</a></li>
-                 <li><a href="#">Laptop Dell 88745</a></li>
-                 <li><a href="#">Laptop Dell 88745</a></li>
-               </ul> -->
-	  
         <div class="col-lg-3">
           <h1 class="my-2" style="box-shadow: 5px 5px 2px red;">Phúc Tiên</h1>
           <div class="list-group">
-            <a  href="DanhSach.html" class="list-group-item">Laptop Dell
-                <div>
-                     
-                </div>
-                
+            <a href="DanhSach.html" class="list-group-item">Laptop Dell
+              <div>
+
+              </div>
+
             </a>
             <a href="#" class="list-group-item">Laptop Macbook</a>
             <a href="#" class="list-group-item">Laptop Asus</a>
@@ -150,7 +160,7 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Sau</span>
             </a>
-            
+
           </div>
 
 
@@ -165,7 +175,7 @@
 
       <div class="row">
 
-       
+
 
         <div class="divsanpham">
           <h3>Laptop Bán chạy</h3>
@@ -173,11 +183,11 @@
           <div class="row">
 
             <div class="col-lg-3 col-md-6 mb-3">
-			
+
               <div class="card h-100">
-			  
+
                 <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
-				
+
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
@@ -186,12 +196,12 @@
 
                   </p>
                 </div>
-				
+
                 <div class="card-footer">
                   Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                 </div>
               </div>
-			  
+
             </div>
 
             <div class="col-lg-3 col-md-6 mb-3">
@@ -257,7 +267,7 @@
 
     </div>
   </div>
-  
+
 
   <!-- /.container -->
 
@@ -312,6 +322,17 @@
   <script src="../js/Home.js"></script>
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(".odangnhap").mouseenter(function () {
+      $("#bangdangnhap").fadeIn();
+
+    });
+
+    $(".odangnhap").mouseleave(function () {
+      $("#bangdangnhap").fadeOut();
+    });
+  </script>
 
 </body>
 
