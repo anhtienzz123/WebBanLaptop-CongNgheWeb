@@ -17,74 +17,79 @@
     <!-- File css-->
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/GioHang.css">
+    <link rel="stylesheet" href="../css/home.css">
 
 
 </head>
 
 <body class="bg-light">
 
-    <header class="fixed-top">
+    <header class="fixed-top" style="background-color: #d62f12e5;">
         <div class="container">
-            <div class="row">
-
-                <div class="col-lg-2">
-                    <img id="logo" src="../image/logo/logo.jpg" alt="logo">
-                </div>
-
-                <div class="col-lg-5">
-                    <form>
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Tên sản phẩm">
-                            <button class="btn btn-info"><i class="fas fa-search"></i></button>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="col-lg-3 dinhdanga">
-                    <div class="row">
-                        <button class="btn btn-outline-warning"> <i class="fas fa-phone-volume"></i>HỖ TRỢ
-                            ONLINE</button>
-
-                        <a href="GioHang.html"> <button class="btn btn-outline-warning"> <i
-                                    class="fas fa-shopping-cart"></i> Giỏ
-                                hàng</button></a>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-2 dinhdanga odangnhap">
-
-                    <a id="nutdangnhap" href="DangNhap.html"> <button class="btn btn-warning"><i
-                                class="fas fa-users"></i> Đăng
-                            nhập</button></a>
-
-                    <div id="bangdangnhap">
-                        <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-users"></i> Đăng
-                                nhập</button></a>
-                        <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-registered"></i> Tạo
-                                tài
-                                khoản</button></a>
-                        <a href="DangNhap.html"><button class="btn btn-primary"><img src="../image/logo/fb.png"> Đăng
-                                nhập Facebook
-                            </button></a>
-                        <a href="DangNhap.html"><button class="btn btn-danger"><img src="../image/logo/google.jpg"> Đăng
-                                nhập
-                                Google </button></a>
-                    </div>
-
-
-                </div>
-
-
+          <div class="row">
+    
+            <div class=" col-xs-3  col-sm-3 col-md-3  col-lg-3" style="margin-top: -10px;">
+              <div class="container logo">
+                <p style="display:inline;">Phúc Tiên Store</p>
+              </div>
+              <p style="display:inline" class="hethongbanle">Hệ Thống bán lẻ uy tính</p>
             </div>
-
+    
+            <div class=" col-xs-4  col-sm-4 col-md-4 col-lg-4">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Tên Laptop, hãng sản xuất, cấu hình... ">
+                  <button class="btn btn-warning"><i class="fas fa-search"></i></button>
+    
+                </div>
+              </form>
+            </div>
+    
+    
+            <div class="col-xs-2  col-sm-2 col-md-2  col-lg-2" style="margin-top: -4px;">
+    
+              <p class="hotline">19008948</p>
+              <p class="hotro">Hotline hỗ trợ bán hàng</p>
+            </div>
+    
+            <div class=" col-xs-3  col-sm-3 col-md-3 col-lg-3 dinhdanga">
+              <div class="row">
+    
+                <div style="margin-right: 2%;">
+                  <a href="GioHang.html"><button class="btn btn-outline-warning"> <i class="fas fa-shopping-cart"></i> Giỏ hàng </button></a>
+                </div>
+    
+    
+                <div id="odangnhap">
+                  <button id="nutdangnhap" class="btn btn-outline-warning"><i class="fas fa-users"></i> Đăng nhập
+                  </button>
+    
+                  <div id="bangdangnhap">
+                    <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-users"></i> Đăng
+                        nhập</button></a>
+                    <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-registered"></i> Tạo tài
+                        khoản</button></a>
+                    <a href="DangNhap.html"><button class="btn btn-primary"><img src="../image/logo/fb.png"> Đăng nhập
+                        Facebook
+                      </button></a>
+                    <a href="DangNhap.html"><button class="btn btn-danger"><img src="../image/logo/google.jpg"> Đăng nhập
+                        Google </button></a>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+    
+          </div>
+    
         </div>
-
-    </header>
-
+    
+      </header>
 
     <!-- Nội dung-->
-    <div class="content my-5 bg-white">
+    <div class="content my-4 bg-white">
         <div class="container">
             <!-- Chi tiet san pham-->
             <div class="row">
@@ -106,14 +111,14 @@
                         </div>
 
                         <div class="col-lg-2">
-                            <p>24.299.000 đ</p>
+                            <p class="tien">150000000</p>
 
                         </div>
 
                         <div class="col-lg-3 nut">
                             
-                            <button >-</button><input type="text" value="1"><button>+</button>
-                            <button ><i class="far fa-trash-alt"></i>Xóa </button>
+                            <button id="tru1" onclick="tru1()" >-</button><input class="soluong" type="text" value="1"><button id="cong1" onclick="cong1()" >+</button>
+                            <button><i class="far fa-trash-alt"></i>Xóa</button>
 
                         </div>
 
@@ -138,12 +143,12 @@
                         </div>
 
                         <div class="col-lg-2">
-                            <p>24.299.000 đ</p>
+                            <p class="tien" > 20000000 </p>
 
                         </div>
 
                         <div class="col-lg-3 nut">
-                            <button>-</button><input type="text" value="1"><button>+</button>
+                            <button id="tru2" onclick="tru2()">-</button><input class="soluong" type="text" value="1"><button onclick="cong2()" id="cong2">+</button>
                             <button><i class="far fa-trash-alt"></i>Xóa</button>
 
                         </div>
@@ -169,12 +174,12 @@
                         </div>
 
                         <div class="col-lg-2">
-                            <p>24.299.000 đ</p>
+                            <p class="tien">17500000</p>
 
                         </div>
 
                         <div class="col-lg-3 nut">
-                            <button>-</button><input type="text" value="1"><button>+</button>
+                            <button id="tru3" onclick="tru3()">-</button><input class="soluong" type="text" value="1"> <button id="cong3" onclick="cong3()">+</button>
                             <button ><i class="far fa-trash-alt"></i>Xóa</button>
 
                         </div>
@@ -200,7 +205,7 @@
                     <table>
                         <tr>
                             <th>Tổng tiền sản phẩm: </th>
-                            <td>90.000.000 đ</td>
+                            <td id="tongTienSanPham"></td>
                         </tr>
 
                         <tr>
@@ -208,17 +213,9 @@
                             <td>50.000 đ</td>
                         </tr>
 
-                        <tr>
-
-                            <th>Thuế: </th>
-                            <td>0 đ</td>
-
-                        </tr>
-
-
                         <tr class="trthanhtien">
                             <th>Tổng tiền: </th>
-                            <td class="othanhtien">90.050.000 đ</td>
+                            <td id="othanhtien" style="color: red;" ></td>
 
                         </tr>
                     </table>
@@ -235,14 +232,14 @@
                 <form action="#">
                     <table>
                         <tr>
-                            <td>* Họ tên: </td>
+                            <td> <span>*</span> Họ tên: </td>
                             <td>
                                 <input class="form-control" type="text" placeholder="Họ tên">
                             </td>
                         </tr>
 
                         <tr>
-                            <td>* Số điện thoại: </td>
+                            <td><span>*</span> Số điện thoại: </td>
                             <td>
                                 <input class="form-control" type="tel" placeholder="Số điện thoại">
                             </td>
@@ -250,7 +247,7 @@
                         </tr>
 
                         <tr>
-                            <td>* Tỉnh thành</td>
+                            <td><span>*</span> Tỉnh thành</td>
                             <td>
                                 <select class="form-control">
                                     <option selected>Chọn Tỉnh/Thành Phố</option>
@@ -270,7 +267,7 @@
 
 
                         <tr>
-                            <td>* Địa chỉ giao hàng: </td>
+                            <td><span>*</span> Địa chỉ giao hàng: </td>
                             <td><input class="form-control" type="text" placeholder="Số nhà, tên đường, phườngxã"></td>
                         </tr>
 
@@ -308,65 +305,71 @@
 
 
 
-    <footer class="py-5 bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 ulfooter">
-                    <h5>Laptop chính hãng Phúc Tiên</h5>
-                    <hr>
-
-                    <p>Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Hồ Chí Minh</p>
-                    <p>Hotline bán hàng: 0935050235 (Tiên Huỳnh)</p>
-                    <p>Hotline kỹ thuật: 0954523021 (Hoàng Phúc)</p>
-                </div>
-
-                <div class="col-3 ulfooter">
-                    <h5>CHÍNH SÁCH CHUNG</h5>
-                    <hr>
-
-                    <p><a href="#">Chính sách đổi trả hàng</a></p>
-                    <p><a href="#">Chính sách vận chuyển</a></p>
-                    <p><a href="#">Chính sách bán hàng online</a></p>
-                    <p><a href="#">Chính sách bảo hành</a></p>
-                    <p><a href="#">Chính sách trả góp</a></p>
-
-
-                </div>
-
-                <div class="col-3 ulfooter">
-                    <h5>TRỢ GIÚP</h5>
-
-                    <hr>
-
-
-                    <p><a href="#">Giới thiệu</a></p>
-                    <p><a href="#">Thông tin liên lạc</a></p>
-                    <p><a href="#">Hướng dẫn mua hàng online</a></p>
-                    <p><a href="#">Hướng dẫn trả góp</a></p>
-                    <p><a href="#">Chính sách bảo hành</a></p>
-                    <p><a href="#">Chính sách trả góp</a></p>
-
-                </div>
-
+    <footer class="py-5 my-3 bg-white">
+        <div class="container ">
+          <div class="row">
+            <div class="col-6 ulfooter">
+              <h5 xss=removed>Phúc Tiên Store</h5>
+              <hr>
+    
+              <p>Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Hồ Chí Minh</p>
+              <p>Hotline bán hàng: 0935050235 (Tiên Huỳnh)</p>
+              <p>Hotline kỹ thuật: 0954523021 (Hoàng Phúc)</p>
+              <p>Email: sale.hotboyphuyen@gmail.com</p>
+              <div class="container">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-google-plus"></i></a>
+                <a href="#"><i class="fab fa-youtube-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+              </div>
+    
             </div>
-
+    
+            <div class="col-3 ulfooter">
+              <h5>CHÍNH SÁCH CHUNG</h5>
+              <hr>
+    
+              <p><a href="#">Chính sách đổi trả hàng</a></p>
+              <p><a href="#">Chính sách vận chuyển</a></p>
+              <p><a href="#">Chính sách bán hàng online</a></p>
+              <p><a href="#">Chính sách bảo hành</a></p>
+              <p><a href="#">Chính sách trả góp</a></p>
+    
+    
+            </div>
+    
+            <div class="col-3 ulfooter">
+              <h5>TRỢ GIÚP</h5>
+    
+              <hr>
+    
+    
+              <p><a href="#">Giới thiệu</a></p>
+              <p><a href="#">Thông tin liên lạc</a></p>
+              <p><a href="#">Hướng dẫn mua hàng online</a></p>
+              <p><a href="#">Hướng dẫn trả góp</a></p>
+              <p><a href="#">Chính sách bảo hành</a></p>
+              <p xss=removed><a href="#">Chính sách trả góp</a></p>
+            </div>
+          </div>
         </div>
-        <!-- /.container -->
-    </footer>
+    
+    
+      </footer>
+    
+      <div class="bg-light contaier-fluid " style="font-size: 13px;color: slategray;text-align: center;">
+        ©2005-2020 Phúc Tiên Store Copyright, All Rights Reserved.
+        <br>
+        <br>
+     </div>
+
+
     <script src="../js/Home.js"></script>
+    <script src="../js/GioHang.js"></script>
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script>
-        $(".odangnhap").mouseenter(function () {
-          $("#bangdangnhap").fadeIn();
-    
-        });
-    
-        $(".odangnhap").mouseleave(function () {
-          $("#bangdangnhap").fadeOut();
-        });
-      </script>
+    <script src="../js/dangnhap.js"></script>
 </body>
 
 </html>

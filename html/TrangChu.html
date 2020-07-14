@@ -17,6 +17,7 @@
 
   <!-- File css-->
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/home.css">
 
 
 
@@ -24,49 +25,65 @@
 
 <body class="bg-light">
 
-  <header class="fixed-top">
+
+  <header class="fixed-top" style="background-color: #d62f12e5;">
     <div class="container">
+
       <div class="row">
 
-        <div class="col-lg-2">
-          <img id="logo" src="../image/logo/logo.jpg" alt="logo">
+        <div class="col-xs-6  col-sm-3 col-md-3  col-lg-3" style="margin-top: -10px;">
+          <div class="container logo">
+            <p style="display:inline; font-size: 150%;">Phúc Tiên Store</p>
+          </div>
+          <p style="display:inline" class="hethongbanle">Hệ Thống bán lẻ uy tính</p>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-xs-6  col-sm-4 col-md-4 col-lg-4">
+
           <form>
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Tên sản phẩm">
-              <button class="btn btn-info"><i class="fas fa-search"></i></button>
+              <input type="text" class="form-control" placeholder="Tên Laptop, hãng sản xuất, cấu hình... ">
+              <button class="btn btn-warning"><i class="fas fa-search"></i></button>
+
             </div>
           </form>
         </div>
 
-        <div class="col-lg-3 dinhdanga">
-          <div class="row">
-            <button class="btn btn-outline-warning"> <i class="fas fa-phone-volume"></i>HỖ TRỢ
-              ONLINE</button>
 
-            <a href="GioHang.html"> <button class="btn btn-outline-warning"> <i class="fas fa-shopping-cart"></i> Giỏ
-                hàng</button></a>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="margin-top: -4px;">
 
-          </div>
+          <p class="hotline">19008948</p>
+          <p class="hotro">Hotline hỗ trợ bán hàng</p>
         </div>
 
-        <div class="col-lg-2 dinhdanga odangnhap">
+        <div class=" col-xs-3  col-sm-3 col-md-3 col-lg-3 dinhdanga">
 
-          <a id="nutdangnhap" href="DangNhap.html"> <button class="btn btn-warning"><i class="fas fa-users"></i> Đăng
-              nhập</button></a>
+          <div class="row">
 
-          <div id="bangdangnhap">
-            <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-users"></i> Đăng nhập</button></a>
-            <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-registered"></i> Tạo tài
-                khoản</button></a>
-            <a href="DangNhap.html"><button class="btn btn-primary"><img src="../image/logo/fb.png"> Đăng nhập Facebook
-              </button></a>
-            <a href="DangNhap.html"><button class="btn btn-danger"><img src="../image/logo/google.jpg"> Đăng nhập
-                Google </button></a>
+            <div style="padding: 0px 2px 0px 0px;  text-align: center; " class="col-sx-6 col-sm-6 col-md-6 col-lg-6">
+              <a href="GioHang.html"><button style="width: 100%;" class="btn btn-outline-warning"> <i
+                    class="fas fa-shopping-cart"></i> Giỏ hàng </button></a>
+            </div>
+
+
+            <div id="odangnhap" class="col-sx-6 col-sm-6 col-md-6  col-lg-6" style="padding: 0px 0px 0px 2px;">
+              <button id="nutdangnhap" class="btn btn-outline-warning"><i class="fas fa-users"></i> Đăng nhập
+              </button>
+
+              <div id="bangdangnhap">
+                <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-users"></i> Đăng
+                    nhập</button></a>
+                <a href="DangNhap.html"><button class="btn btn-warning"><i class="fas fa-registered"></i> Tạo tài
+                    khoản</button></a>
+                <a href="DangNhap.html"><button class="btn btn-primary"><img src="../image/logo/fb.png"> Đăng nhập
+                    Facebook
+                  </button></a>
+                <a href="DangNhap.html"><button class="btn btn-danger"><img src="../image/logo/google.jpg"> Đăng nhập
+                    Google </button></a>
+              </div>
+            </div>
+
           </div>
-
 
         </div>
 
@@ -78,59 +95,59 @@
   </header>
 
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Giới thiệu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Liên lạc</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+
+
 
   <!-- Page Content -->
-  <div>
-    <div class="container bg-white">
+  <div style="padding-top: 30px; ">
+
+    <!-- dong 1 san pham-->
+    <div class="container bg-white ">
 
       <div class="row">
 
-        <div class="col-lg-3">
-          <h1 class="my-2" style="box-shadow: 5px 5px 2px red;">Phúc Tiên</h1>
-          <div class="list-group">
-            <a href="DanhSach.html" class="list-group-item">Laptop Dell
+        <div class="col-lg-2" style="padding: 0px;" id="menuloai">
+          <!-- <h1 class="my-2" style="box-shadow: 5px 5px 2px red;">Phúc Tiên</h1> -->
+          <div class="list-group" style=" font-size: 14px; ">
+            <a href="DanhSach.html" class="list-group-item"> <i class="fas fa-laptop"></i> Laptop Dell
               <div>
+                Dell 1
+                Dell 2
+                Dell 3
+                Dell 4
+                Dell 5
 
               </div>
+              <i class="fas fa-angle-right"></i>
 
             </a>
-            <a href="#" class="list-group-item">Laptop Macbook</a>
-            <a href="#" class="list-group-item">Laptop Asus</a>
-            <a href="#" class="list-group-item">Laptop Lenovo</a>
-            <a href="#" class="list-group-item">Khác</a>
+            <a href="#" class="list-group-item">
+              <i class="fas fa-desktop"></i>
+              Laptop Macbook
+              <i class="fas fa-angle-right"></i>
+
+            </a>
+            <a href="#" class="list-group-item">
+              <i class="fas fa-laptop"></i>
+              Laptop Asus
+              <i class="fas fa-angle-right"></i>
+            </a>
+            <a href="#" class="list-group-item">
+              <i class="fas fa-laptop"></i>
+              Laptop Lenovo
+              <i class="fas fa-angle-right"></i>
+            </a>
+            <a href="#" class="list-group-item">
+              <i class="fas fa-laptop"></i>
+              Khác
+              <i class="fas fa-angle-right"></i>
+            </a>
           </div>
 
         </div>
         <!-- /.col-lg-3 -->
 
-        <div class="col-lg-9">
+        <div class="col-lg-7" style=" padding: 0px; ">
 
           <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -139,7 +156,7 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
 
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner" role="listbox" id="slide">
               <div class="carousel-item active">
                 <img class="d-block img-fluid" src="../image/silde/anh1.png" alt="ảnh 1">
               </div>
@@ -169,93 +186,258 @@
         </div>
         <!-- /.col-lg-9 -->
 
+
+        <div class="col-lg-3" id="hinhbanner">
+          <img src="../image/home/hinh1.png" alt="">
+          <img src="../image/home/hinh2.jpg" alt="">
+          <img src="../image/home/hinh3.jpg" alt="">
+        </div>
+
       </div>
       <!-- /.row1 -->
 
 
       <div class="row">
-
-
-
-        <div class="divsanpham">
-          <h3>Laptop Bán chạy</h3>
+        <div class="col-lg-12 divsanpham ">
+          <h3>Laptop Bán chạy <a href="DanhSach.html">Xem tất cả</a></h3>
 
           <div class="row">
+             <!-- San pham 1-->
+          <div class="col-lg-3 col-md-6 mb-3">
 
-            <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card h-100">
 
-              <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh6.jpg" alt=""></a>
 
-                <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
-
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
-                  </h4>
-                  <h5>21.290.000 đ</h5>
-
-                  </p>
+              <div class="card-body  ">
+                <h6 class="card-title">
+                  <a href="#"> Lenovo Ideapad L340-15IRH 81LK00FAVN - Intel Core i5</a>
+                </h6>
+                <div class="cardGia">
+                  15.990.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> NVIDIA GTX1050 3GB DDR5</p>
+                      <i class="far fa-hdd"></i>
+                      <p> HDD 1TB </p>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="card-footer">
-                  Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 8GB DDR4</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p>Intel Core i5 - 9300H</p>
+                    </div>
+                  </div>
                 </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> Illuminate Living-rom Keyboard K830</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <!-- San pham 2-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh2.jpg" alt=""></a>
+
+              <div class="card-body  ">
+                <h6 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h6>
+                <div class="cardGia">
+                  10.430.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> Card Onboard</p>
+                      <i class="far fa-hdd"></i>
+                      <p> HDD 512GB</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 8GB</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> I5-8thGen</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> Illuminate Living-rom Keyboard K830</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+          <!-- San pham 3-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh4.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h6 class="card-title">
+                  <a href="#"> Laptop Gaming HP PAVILION GAMING 15-DK0231TX - Intel Core i5</a>
+                </h6>
+                <div class="cardGia">
+                  18.990.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> Card Onboard</p>
+                      <i class="far fa-hdd"></i>
+                      <p>HDD 1TB + SSD 180GB</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 8GB DDR4</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2.23kg</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> Intel Core i5 9300H</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> LOGITECH CRAFT</p>
+
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-3">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
-                  </h4>
-                  <h5>21.290.000 đ</h5>
 
-                  </p>
+          </div>
+
+          <!-- San pham 4-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh5.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h6 class="card-title">
+                  <a href="#"> Lenovo Legion 5 15IMH05 82AU004XVN </a>
+                </h6>
+                <div class="cardGia">
+                  24.790.000 đ
                 </div>
-                <div class="card-footer">
-                  Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> Card rời GTX 1650 4GB</p>
+                      <i class="far fa-hdd"></i>
+                      <p> SSD 512GB NVMe</p>
+                    </div>
+                  </div>
                 </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> RAM 16GB </p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2.3KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> AMD Ryzen 5 – 4600H</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> ILLUMINATED KEYBOARD K740</p>
+
+                    </div>
+                  </div>
+                </div>
+
               </div>
+
+
             </div>
 
+           
+
+           
 
 
-            <div class="col-lg-3 col-md-6 mb-3">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
-                  </h4>
-                  <h5>21.290.000 đ</h5>
 
-                  </p>
-                </div>
-                <div class="card-footer">
-                  Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-              </div>
-            </div>
+          
 
-            <div class="col-lg-3 col-md-6 mb-3">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="../image/sanpham/anh1.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
-                  </h4>
-                  <h5>21.290.000 đ</h5>
-
-                  </p>
-                </div>
-                <div class="card-footer">
-                  Đánh giá: <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div>
-              </div>
-            </div>
+           
 
 
 
@@ -263,25 +445,834 @@
 
         </div>
 
+
+      </div>
+    </div>
+
+    <!--Dòng 2 hình ảnh-->
+
+
+    <div class="container my-3 dong2hinhanh bg-white ">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="../image/home/giamtoiben.jfif" alt="">
+        </div>
+
+        <div class="col-lg-6">
+          <img src="../image/home/hinhbu.png" alt="">
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+    <!-- End dòng 2 hình ảnh -->
+
+    <!-- Dòng 3 sản phẩm-->
+
+    <div class="container bg-white">
+
+      <div class="col-lg-12 divsanpham">
+        <h3>Laptop Khuyến Mãi
+          <a href="DanhSach.html">Xem tất cả</a>
+
+        </h3>
+
+        <div class="row">
+
+         <!-- San pham 5-->
+         <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+          <div class="card h-100">
+
+            <a href="#"><img class="card-img-top" src="../image/sanpham/anh7.jpg" alt=""></a>
+
+            <div class="card-body chitiet5">
+              <h6 class="card-title">
+                <a href="#"> Laptop Asus ROG Strix G15 G512-IAL013T - Intel Core i5</a>
+              </h6>
+              <div class="cardGia">
+                18.930.000 đ
+              </div>
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-desktop"></i>
+                    <p> Card Onboard</p>
+                    <i class="far fa-hdd"></i>
+                    <p> HDD 512GB</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-memory"></i>
+                    <p> 8GB</p>
+                    <i class="fas fa-weight-hanging"></i>
+                    <p> 2KG</p>
+                    <i class="fab fa-creative-commons-sampling-plus"></i>
+                    <p> I5-8thGen</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-keyboard"></i>
+                    <p> Illuminate Living-rom Keyboard K830</p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+        <!-- san pham 6-->
+        <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+          <div class="card h-100">
+
+            <a href="#"><img class="card-img-top" src="../image/sanpham/anh8.jpg" alt=""></a>
+
+            <div class="card-body chitiet6">
+              <h6 class="card-title">
+                <a href="#"> Laptop Lenovo Ideapad S340-15IWL 81N800RSVN - Intel Core i3</a>
+              </h6>
+              <div class="cardGia">
+                9.590.000 đ
+              </div>
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-desktop"></i>
+                    <p> Intel HD 620</p>
+                    <i class="far fa-hdd"></i>
+                    <p> HDD 1TB + SSD 180GB</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-memory"></i>
+                    <p> 8GB</p>
+                    <i class="fas fa-weight-hanging"></i>
+                    <p> 2KG</p>
+                    <i class="fab fa-creative-commons-sampling-plus"></i>
+                    <p> Intel Core i3 8145U</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-keyboard"></i>
+                    <p> Illuminate Living-rom Keyboard K830</p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+        </div>
+
+
+        <!-- san pham 7-->
+        <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+          <div class="card h-100">
+
+            <a href="#"><img class="card-img-top" src="../image/sanpham/anh9.jpg" alt=""></a>
+
+            <div class="card-body">
+              <h6 class="card-title">
+                <a href="#"> Laptop Lenovo Ideapad L340-15API 81LW00FTVN - AMD Ryzen 7</a>
+              </h6>
+              <div class="cardGia">
+                12.460.000 đ
+              </div>
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-desktop"></i>
+                    <p> AMD Radeon Vega 10</p>
+                    <i class="far fa-hdd"></i>
+                    <p> HDD 512GB</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-memory"></i>
+                    <p> 8GB</p>
+                    <i class="fas fa-weight-hanging"></i>
+                    <p> 2KG</p>
+                    <i class="fab fa-creative-commons-sampling-plus"></i>
+                    <p> AMD Ryzen 7-3700U</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-keyboard"></i>
+                    <p> Illuminate Living-rom Keyboard K830</p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+        <!-- san pham 8-->
+        <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+          <div class="card h-100">
+
+            <a href="#"><img class="card-img-top" src="../image/sanpham/anh10.jpg" alt=""></a>
+
+            <div class="card-body">
+              <h6 class="card-title">
+                <a href="#"> Laptop Acer Aspire 3 A315-23-R8BA - AMD Ryzen 3</a>
+                <br>
+                <br>
+              </h6>
+              <div class="cardGia">
+                15.630.000 đ
+              </div>
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-desktop"></i>
+                    <p> Intel UHD 620</p>
+                    <i class="far fa-hdd"></i>
+                    <p> HDD 512GB</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-memory"></i>
+                    <p> 16GB</p>
+                    <i class="fas fa-weight-hanging"></i>
+                    <p> 1.5KG</p>
+                    <i class="fab fa-creative-commons-sampling-plus"></i>
+                    <p> Intel Core i3 8145U</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container">
+                  <div class="cauhinh">
+                    <i class="fas fa-keyboard"></i>
+                    <p> Illuminate Living-rom Keyboard K830</p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- End dòng 3 sản phẩm -->
+
+    <!-- Dòng 4 hình ảnh -->
+
+    <div class="container dong3hinhanh my-3 bg-white">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <img src="../image/home/hinhbu.jfif" alt="">
+
+        </div>
+
       </div>
 
     </div>
+    <!-- End Dòng 4 hình ảnh-->
+
+
+    <!-- Dòng 5 sản phẩm-->
+    <div class="container bg-white">
+
+      <div class="col-lg-12 divsanpham">
+        <h3>Laptop Phổ Biến
+          <a href="DanhSach.html">Xem tất cả</a>
+
+        </h3>
+
+        <div class="row">
+
+          <!-- San pham 1-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh6.jpg" alt=""></a>
+
+              <div class="card-body  ">
+                <h6 class="card-title">
+                  <a href="#"> Lenovo Ideapad L340-15IRH 81LK00FAVN - Intel Core i5</a>
+                </h6>
+                <div class="cardGia">
+                  15.990.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> NVIDIA GTX1050 3GB DDR5</p>
+                      <i class="far fa-hdd"></i>
+                      <p> HDD 1TB </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 8GB DDR4</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p>Intel Core i5 - 9300H</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> Illuminate Living-rom Keyboard K830</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <!-- San pham 2-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh2.jpg" alt=""></a>
+
+              <div class="card-body  ">
+                <h6 class="card-title">
+                  <a href="#"> Laptop Acer Nitro 5 2020 AN515-55-58A7 - Intel Core i5</a>
+                </h6>
+                <div class="cardGia">
+                  10.430.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> Card Onboard</p>
+                      <i class="far fa-hdd"></i>
+                      <p> HDD 512GB</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 8GB</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> I5-8thGen</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> Illuminate Living-rom Keyboard K830</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+          <!-- San pham 3-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh4.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h6 class="card-title">
+                  <a href="#"> Laptop Gaming HP PAVILION GAMING 15-DK0231TX - Intel Core i5</a>
+                </h6>
+                <div class="cardGia">
+                  18.990.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> Card Onboard</p>
+                      <i class="far fa-hdd"></i>
+                      <p>HDD 1TB + SSD 180GB</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 8GB DDR4</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2.23kg</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> Intel Core i5 9300H</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> LOGITECH CRAFT</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <!-- San pham 4-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh5.jpg" alt=""></a>
+
+              <<div class="card-body">
+                <h6 class="card-title">
+                  <a href="#"> Lenovo Legion 5 15IMH05 82AU004XVN </a>
+                </h6>
+                <div class="cardGia">
+                  24.790.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> Card rời GTX 1650 4GB</p>
+                      <i class="far fa-hdd"></i>
+                      <p> SSD 512GB NVMe</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> RAM 16GB </p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2.3KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> AMD Ryzen 5 – 4600H</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> ILLUMINATED KEYBOARD K740</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+          <!-- San pham 5-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh7.jpg" alt=""></a>
+
+              <div class="card-body chitiet5">
+                <h6 class="card-title">
+                  <a href="#"> Laptop Asus ROG Strix G15 G512-IAL013T - Intel Core i5</a>
+                </h6>
+                <div class="cardGia">
+                  18.930.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> Card Onboard</p>
+                      <i class="far fa-hdd"></i>
+                      <p> HDD 512GB</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 8GB</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> I5-8thGen</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> Illuminate Living-rom Keyboard K830</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+          <!-- san pham 6-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh8.jpg" alt=""></a>
+
+              <div class="card-body chitiet6">
+                <h6 class="card-title">
+                  <a href="#"> Laptop Lenovo Ideapad S340-15IWL 81N800RSVN - Intel Core i3</a>
+                </h6>
+                <div class="cardGia">
+                  9.590.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> Intel HD 620</p>
+                      <i class="far fa-hdd"></i>
+                      <p> HDD 1TB + SSD 180GB</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 8GB</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> Intel Core i3 8145U</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> Illuminate Living-rom Keyboard K830</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+            </div>
+
+
+          </div>
+
+
+          <!-- san pham 7-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh9.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h6 class="card-title">
+                  <a href="#"> Laptop Lenovo Ideapad L340-15API 81LW00FTVN - AMD Ryzen 7</a>
+                </h6>
+                <div class="cardGia">
+                  12.460.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> AMD Radeon Vega 10</p>
+                      <i class="far fa-hdd"></i>
+                      <p> HDD 512GB</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 8GB</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 2KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> AMD Ryzen 7-3700U</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> Illuminate Living-rom Keyboard K830</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+          <!-- san pham 8-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="#"><img class="card-img-top" src="../image/sanpham/anh10.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h6 class="card-title">
+                  <a href="#"> Laptop Acer Aspire 3 A315-23-R8BA - AMD Ryzen 3</a>
+                  <br>
+                  <br>
+                </h6>
+                <div class="cardGia">
+                  15.630.000 đ
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-desktop"></i>
+                      <p> Intel UHD 620</p>
+                      <i class="far fa-hdd"></i>
+                      <p> HDD 512GB</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-memory"></i>
+                      <p> 16GB</p>
+                      <i class="fas fa-weight-hanging"></i>
+                      <p> 1.5KG</p>
+                      <i class="fab fa-creative-commons-sampling-plus"></i>
+                      <p> Intel Core i3 8145U</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="container">
+                    <div class="cauhinh">
+                      <i class="fas fa-keyboard"></i>
+                      <p> Illuminate Living-rom Keyboard K830</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- End dòng 5 sản phẩm-->
+
+
+    <div class="container bg-white dongcuoi my-3">
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left: 0px; padding-right: 5px;">
+          <img src="../image/home/cuoi1.jpg" alt="">
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left: 0px; padding-right: 5px;">
+          <img src="../image/home/cuoi2.jpg" alt="">
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left: 5px; padding-right: 0px;">
+          <img src="../image/home/cuoi3.png" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+
   </div>
 
 
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-light">
-    <div class="container">
+  <footer class="py-5 my-3 bg-white">
+    <div class="container ">
       <div class="row">
         <div class="col-6 ulfooter">
-          <h5>Laptop chính hãng Phúc Tiên</h5>
+          <h5 xss=removed>Phúc Tiên Store</h5>
           <hr>
 
           <p>Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Hồ Chí Minh</p>
           <p>Hotline bán hàng: 0935050235 (Tiên Huỳnh)</p>
           <p>Hotline kỹ thuật: 0954523021 (Hoàng Phúc)</p>
+          <p>Email: sale.hotboyphuyen@gmail.com</p>
+          <div class="container">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-google-plus"></i></a>
+            <a href="#"><i class="fab fa-youtube-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+          </div>
+
         </div>
 
         <div class="col-3 ulfooter">
@@ -308,30 +1299,38 @@
           <p><a href="#">Hướng dẫn mua hàng online</a></p>
           <p><a href="#">Hướng dẫn trả góp</a></p>
           <p><a href="#">Chính sách bảo hành</a></p>
-          <p><a href="#">Chính sách trả góp</a></p>
-
+          <p xss=removed><a href="#">Chính sách trả góp</a></p>
         </div>
-
       </div>
-
     </div>
-    <!-- /.container -->
+
+
   </footer>
+
+  <div class="bg-light contaier-fluid " style="font-size: 13px;color: slategray;text-align: center;">
+    ©2005-2020 Phúc Tiên Store Copyright, All Rights Reserved.
+    <br>
+    <br>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="../js/Home.js"></script>
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <script src="../js/dangnhap.js"></script>
+
   <script>
-    $(".odangnhap").mouseenter(function () {
-      $("#bangdangnhap").fadeIn();
+    $("#menuloai a").mouseenter(function () {
+      $("#menuloai a div").fadeIn();
 
     });
 
-    $(".odangnhap").mouseleave(function () {
-      $("#bangdangnhap").fadeOut();
+    $("#menuloai a").mouseleave(function () {
+      $("#menuloai a div").fadeOut();
+
     });
+
   </script>
 
 </body>
